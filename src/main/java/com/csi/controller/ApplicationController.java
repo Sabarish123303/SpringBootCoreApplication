@@ -17,4 +17,9 @@ public class ApplicationController {
     {
         return "WELCOME TO CREDIT SYSTEMS INDIA";
     }
+    @GetMapping("/address")
+    public String address()
+    {
+        return "India";
+    }
 }
